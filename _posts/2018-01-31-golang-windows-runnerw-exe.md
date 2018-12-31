@@ -4,7 +4,7 @@ title: Windows 下 GoLand 中运行 Golang 程序出现 runnerw.exe 问题的解
 author: DuckSoft
 categories: [踩坑]
 tags: [Windows, GoLand, Golang, Gogland, runnerw.exe, IDE, LionNatsu]
-image: mountain.jpg
+image: mountains.jpg
 ---
 
 刚刚接触Golang的时候对Golang的各种强制性措施非常不爽，同时那个时候Golang除了我不熟悉的多线程、并发之外也没有多少亮点，所以学了一段时间之后就把它冷落了。
