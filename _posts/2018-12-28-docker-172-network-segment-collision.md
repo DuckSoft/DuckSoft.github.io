@@ -40,11 +40,7 @@ image: angry-docker.png
 
 2. 使用不冲突的网段，创建新 Docker 网桥：
 
-   `docker network create \`
-   `--driver=bridge \`
-   `--subnet=172.254.0.0/16 \`
-   `--ip-range=172.254.6.0/24 \`
-   `--gateway=172.254.6.254 br0`
+   `docker network create --driver=bridge --subnet=172.254.0.0/16 --ip-range=172.254.6.0/24 --gateway=172.254.6.254 br0`
 
 3. 删除旧容器：
 
@@ -52,9 +48,7 @@ image: angry-docker.png
 
 4. 以新网桥重新启动容器：
 
-   `docker run -d --network=br0 \`
-   `--name <container_name> \`
-   `<__other_arguments__> <image_name>`
+   `docker run -d --network=br0 --name <container_name> <__other_arguments__> <image_name>`
 
 5. 将旧网桥 down 掉（已不再占用）：
 
