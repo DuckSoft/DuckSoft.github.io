@@ -43,6 +43,7 @@ rustup toolchain install stable
 什么？你跟我说下载速度只有 `20 kb/s`（没错是 bit）？下载到 95% 就不动了？你需要的只是一个镜像源！
 
 > 中国科学技术大学 `rustup` 镜像源
+> 
 > http://mirrors.ustc.edu.cn/help/rust-static.html
 
 由于 Arch Linux 伟大的特性，我们就不需要设置 `RUSTUP_UPDATE_ROOT` 环境变量了，按文中所述设置用于更新 `toolchain` 的 `RUSTUP_DIST_SERVER` 环境变量即可：
@@ -72,7 +73,8 @@ rustup toolchain install stable
 
 当然，选择 IntelliJ IDEA 也能奏效。但是作者出于下面几点考虑，将 Rust 插件放在了 CLion 上而非 IDEA 上：
 
-1. IntelliJ IDEA 主要是用于 JVM 系语言的开发，而 CLion 主要是用于 C/C++ 系语言的开发。从语言的本质上来说，用于 C/C++ 语言的 CLion 更贴近 Rust 的本质。
-2. IntelliJ IDEA 本身很重，启动时要加载很多我们在 Rust 开发时用不到的插件。而 CLion 相对来说加载的插件会少一些，也会在使用的时候更流畅一些。
+1. IntelliJ IDEA 主要是用于 JVM 系语言的开发，而 CLion 主要是用于 C/C++ 系语言的开发。从语言的本质上来说，用于 C/C++ 语言的 CLion **更贴近 Rust 的本质**。
+2. IntelliJ IDEA 本身很**重**，启动时要加载很多我们在 Rust 开发时用不到的插件。而 CLion 相对来说加载的插件会少一些，也会在使用的时候更流畅一些。
+3. CLion 的 Debugger 里面加入了对 Rust 的支持，而如果使用 IntelliJ IDEA 则无法享受到便利的 Debug 功能。（此处灰常感谢 [@PoiScript](https://github.com/PoiScript)）
 
-不过最后，其实还是更希望 JetBrains 出一个 RustLion 之类的 Rust 专用的 IDE。
+不过最后，其实还是更希望 JetBrains 出一个 RustLion 之类的 Rust 专用的 IDE 呢。
