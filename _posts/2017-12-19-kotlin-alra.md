@@ -14,7 +14,7 @@ image: mountains.jpg
 
 当时，Kotlin 给我的印象是：比起繁琐至极的 Java 代码，Kotlin 在保留了可读性的前提下更加精炼和简洁。诚然当时我只看到了 Kotlin 的冰山一角——自动生成的 `getter` 与 `setter`。同时 JetBrains 公司在 2016 年 2 月释出的 [Kotlin v1.0 版本](https://blog.jetbrains.com/kotlin/2016/02/kotlin-1-0-released-pragmatic-language-for-jvm-and-android/)也在网上吸引了大量的开发者的关注，于是在百度（没错，当时的百度还能看）一番之后便对 Kotlin 一见钟情，开始了 Kotlin 之旅。
 
-Kotlin 给我的感觉，用一句话来概括：在用 Kotlin 写代码的时候，你真的会感觉到编程是幸福的。Kotlin 语言丰富的语法糖、强大的扩展函数、省心的自动类型推导、简练强大的空值安全机制让受够了 Java/C++ 等语言毒害的人几乎不能抵御。另
+Kotlin 给我的感觉，用一句话来概括：在用 Kotlin 写代码的时候，你真的会感觉到编程是幸福的。Kotlin 语言丰富的语法糖、强大的扩展函数、省心的自动类型推导、简练强大的空值安全机制让受够了 Java/C++ 等语言毒害的人几乎不能抵御。
 
 最让人舒心的是 JetBrains 公司的 IDE 对 Kotlin 的支持做的可谓面面俱到，从一开始就扫清了开发的障碍。天时地利人和俱备的语言，在 Google I/O 2017 大会上[被宣布为 Android 开发官方支持语言](https://blog.jetbrains.com/kotlin/2017/05/kotlin-on-android-now-official/)。（不过毕竟不是谷歌爸爸亲生的，后来被 Dart 和 Flutter 替代了，然而在后者生态环境缺乏的情况下，Kotlin 仍然可以占有一席之地）
 
