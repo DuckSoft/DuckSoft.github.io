@@ -298,6 +298,11 @@ pre code {
   color: inherit;
   background-color: transparent;
 }
+/* Horizontal scrolling code box fix*/
+pre.highlight {
+  white-space: pre;
+  overflow-x: auto;
+}
 
 /* Pygments via Jekyll */
 .highlight {
