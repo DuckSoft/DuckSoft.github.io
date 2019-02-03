@@ -3,7 +3,7 @@ layout: post
 title: 浅谈 Kotlin 中的 apply、let、run 与 also 等函数
 author: DuckSoft
 categories: [编程]
-tags: [Kotlin, JVM]
+tags: [Kotlin, JVM, JetBrains, 编程语言]
 image: mountains.jpg
 ---
 
