@@ -54,10 +54,24 @@ export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
 # 安装最新的 stable 工具链
 rustup toolchain install stable
 ```
+截至 `2018-02-17`，镜像源仍然可用。
 
-截至 `2018-02-02 14:00:00 (GMT+8)`，镜像源仍然可用。
+## 0x05: 设置默认工具链
 
-## 0x04: 配置 CLion Rust 插件
+> 更新于 `2018-02-17`。
+
+刚安装的 Rust 工具链是不会自己指定为默认工具链的，因而需要我们手动设置。使用下面的 `rustup` 命令来查看所有已安装的 Rust 工具链：
+
+```bash
+rustup toolchain list
+```
+若工具链名称列表中没有任何一项包含 `(default)` 字样，则需要使用下面的命令手动设置默认工具链：
+
+```bash
+rustup default <工具链的完整名称>
+```
+
+## 0x06: 配置 CLion Rust 插件
 首先你得安装 CLion。这次我们依然有两个选择：
 * 我们可以选择使用 Arch Linux 自带的包管理系统，安装 [Arch Linux User Repository](https://aur.archlinux.org/) (**AUR**) 上的 `clion` 相关包。你所需的只是 `yay -S clion`。
 * 我们也可以选择 JetBrains 官方提供的 [Toolbox App](https://www.jetbrains.com/toolbox/) 来安装并管理 JetBrains 的全系产品，不经过系统本身的包管理器。
