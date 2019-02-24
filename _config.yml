@@ -20,10 +20,10 @@ permalink:           none
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "DuckSoft's Blog"
+title:		           "DuckSoft's Miscellanies"
 description:	       'Ex nihilo ad astra.'
 author:              'DuckSoft'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
-#feed:
-#  path: rss-feed.xml
+feed:
+  path: rss-feed.xml
