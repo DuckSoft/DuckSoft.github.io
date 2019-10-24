@@ -410,7 +410,7 @@ function strencode(input, key) {
             k = i % len;
             code += String.fromCharCode(input.charCodeAt(i) ^ key.charCodeAt(k));
         }
-    return atob(code);
+        return atob(code);
     }
 undefined
 ```
