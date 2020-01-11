@@ -24,8 +24,8 @@ title:		           "DuckSoft's Miscellanies"
 description:	       'Ex nihilo ad astra.'
 author:                'DuckSoft'
 
-seo_tag:
-  page_lang: zh-CN
+# SEO Tag Lang
+lang: zh-CN
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 feed:
