@@ -9,9 +9,7 @@ image: switch-registration-required.png
 
 几天前的一个夜晚，正在 Telegram 某群里畅聊的我突然收到了来自 Gmail Bot 的一则消息提醒。点开一看，原来是有人在 GitHub 上 [Shadowsocks-Rust](https://github.com/shadowsocks/shadowsocks-rust) 的[讨论区](https://github.com/shadowsocks/shadowsocks-rust/discussions/)（Discussions）里问了一个问题，作为 Shadowsocks Rust 团队中的一员，GitHub 自然是应该通知我的。
 
-点开消息，大致的意思是说，消息的作者用 Shadowsocks-Rust 的 HTTP 入站功能给自己的手机和笔记本电脑开代理用都没有问题，但是在 Nintendo Switch 上用就会弹个框说“网络需要注册”。这个时候，如果点确定，Switch 就会进入一个纯白的页面，上面就俩字——“ok”；页面一关闭，Nintendo Switch 就自动断开网络连接了。
-
-此外，作者补充，以上的情况在使用 Shadowsocks-Windows 开代理的时候是没有的。
+点开[消息](https://github.com/shadowsocks/shadowsocks-rust/discussions/491)，大致的意思是说，消息的作者用 Shadowsocks-Rust 的 HTTP 入站功能给自己的手机和笔记本电脑开代理用都没有问题，但是在 Nintendo Switch 上用就会弹个框说“网络需要注册”。这个时候，如果点确定，Switch 就会进入一个纯白的页面，上面就俩字——“ok”；页面一关闭，Nintendo Switch 就自动断开网络连接了。此外，作者补充，以上的情况在使用 Shadowsocks-Windows 开代理的时候是没有的。
 
 ## 思考
 
@@ -158,4 +156,4 @@ func main() {
 
 人话：已向有关部门报告，谢谢。
 
-还是那句话，**要等任天堂修复这个东西，估计得等到猴年马月去啊**！你们还得学习一个……RFC……
+还是那句话，**要等任天堂修复这个东西，估计得等到猴年马月去啊**！你们任天堂，还得学习一个……咳……RFC……
