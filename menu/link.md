@@ -9,3 +9,4 @@ title: Link
 * [Reno's Blog](https://lskreno.vip/)
 * [rayfalling](https://rayfalling.com/)
 * [FiveYellowMice's Blog](https://fiveyellowmice.com/)
+* [QuarticCat](https://blog.quarticcat.com/)
