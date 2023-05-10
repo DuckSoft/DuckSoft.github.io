@@ -3,6 +3,6 @@ layout: page
 title: Contact
 ---
 
-* Telegram: [@DuckSoft](https://t.me/ducksoft)
+* Telegram: (no longer using Telegram)
 * Email: realducksoft@gmail.com
 
